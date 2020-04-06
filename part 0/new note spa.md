@@ -1,0 +1,1 @@
+When user submits a post the form default action is prevented --> new note is persisted into memory the DOM immediately updates, meanwhile, a call to the server is also made to add the note on the backend

@@ -1,0 +1,1 @@
+user enters text into input --> user clicks "save" --> HTTP POST request is made to `/new_note` --> Server parses payload, pushes the new note to an array and returns a 302 to the client with a specific location --> Client recieves a response from server with 302 and redirect (reloads the page) --> HTTP GET for HTML, CSS, JS --> new note is shown on the client
